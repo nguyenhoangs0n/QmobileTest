@@ -1,0 +1,9 @@
+{
+	"item": [
+		{ "name":"Banner1" ,"price":"20.000.000", "url_img":"http://qmobile.vn/sites/default/files/banner/big_banner_1600x650_s_series.jpg" },
+		{ "name":"Banner2" ,"price":"18.000.000", "url_img":"http://qmobile.vn/sites/default/files/banner/big_banner_1600x650_miracle_series.jpg" },
+		{ "name":"Banner3" , "price":"19.000.000","url_img":"http://qmobile.vn/sites/default/files/banner/big_banner_1600x650_storm_series.jpg" }
+
+
+	]
+}

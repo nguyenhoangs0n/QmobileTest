@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:elevation="3dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/tvlisttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_sale_page"
+        android:textSize="15dp"
+        android:layout_below="@+id/pager"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvlisttitle"
+        android:visibility="gone"
+        android:layout_marginTop="10dp" />
+    <GridView
+        android:id="@+id/grid"
+        android:layout_below="@+id/tvlisttitle"
+        android:layout_marginTop="10dp"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="fill_parent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cardList"
+        android:layout_below="@+id/tvlisttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>
